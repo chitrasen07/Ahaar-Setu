@@ -21,7 +21,7 @@ const App = () => {
   return (
     <PointsProvider>
       <FoodProvider>
-        <Router basename="/Ahaar-Setu">
+        <Router>
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
