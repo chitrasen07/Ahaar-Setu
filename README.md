@@ -18,7 +18,7 @@ Ahaar-Setu is a food donation and distribution platform that connects food donor
 - **Build Tool**: Vite
 - **Package Manager**: npm/bun
 - **Type Checking**: TypeScript
-
+ 
 ## Prerequisites 📋
 
 Before you begin, ensure you have the following installed:
