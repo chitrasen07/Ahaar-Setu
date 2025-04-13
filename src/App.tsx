@@ -15,12 +15,13 @@ import AllDonationsPage from './pages/AllDonationsPage';
 import AllClaimsPage from './pages/AllClaimsPage';
 import About from './pages/About';
 import RedeemRewards from './pages/RedeemRewards';
+import NotFound from './pages/NotFound';
 
 const App = () => {
   return (
     <PointsProvider>
       <FoodProvider>
-        <Router>
+        <Router basename="/Ahaar-Setu">
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
@@ -33,6 +34,7 @@ const App = () => {
             <Route path="/all-claims" element={<AllClaimsPage />} />
             <Route path="/rewards" element={<RedeemRewards />} />
             <Route path="/redeem-rewards" element={<RedeemRewards />} />
+            <Route path="*" element={<NotFound />} />
           </Routes>
           <Toaster />
         </Router>
